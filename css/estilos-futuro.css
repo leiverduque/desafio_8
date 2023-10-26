@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Black+Ops+One&family=Bungee&family=Cormorant+Garamond&family=Nanum+Myeongjo&family=Pacifico&family=Poppins:wght@400;700&family=Recursive:wght@700&family=Roboto+Mono:wght@700&family=Sedgwick+Ave+Display&family=Sriracha&family=Tilt+Prism&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: fantasy;
+}
+body {
+    background-color: #4282f2f7;
+    background-image: url(../images/gim.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 100vh;
+}
+h1 {
+    align-items: center;
+    color: #5a11c8d3;
+    text-align: center;
+    background-color: #f2ff00ee;
+    margin-top: 40px;
+    border-radius: 2px;
+    margin-bottom: 15px;
+    font-family: fantasy;
+}
+.form_label {
+    color: #ddd2d7ee;
+    width: 100%;
+    font-size: 1rem;
+    padding: .3em .3em;
+    text-align: center;
+}
+.form_input {
+    background: rgba(249, 249, 429, 0.5);
+    width: 50%;
+    font-size: 1rem;
+    padding: .3em .3em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.form_input:hover {
+    background-color: #3f6398ee;
+}
+legend {
+    background-color: #0ed819ee;
+    border-radius: 5px;
+}
+fieldset{
+    position: relative;
+    background: rgba(243, 7, 7, 0.753);
+    background-image: url(../images/cuerdas.jpg);
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.act {
+    color: rgb(216, 206, 218);
+}
+.condition {
+    color: rgb(251, 247, 247);
+    padding: 5px;
+    background: rgba(236, 17, 17, 0.15);
+    margin-bottom: 5px;
+    border-radius: 10px;
+
+}
+.campo {
+    color: rgb(249, 246, 246);
+    padding: 5px;
+    background: rgba(243, 7, 7, 0.15);
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+input[type="submit"],
+input[type="reset"] {
+    background-color: #144635;
+    border-radius: 5px;
+    margin: 0 50px;
+    padding: 10px 10px;
+
+    font-size: 15px;
+    border: none;
+    color: rgb(246, 243, 243);
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #321a90fa;
+    
+}

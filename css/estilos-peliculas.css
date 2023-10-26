@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Black+Ops+One&family=Bungee&family=Cormorant+Garamond&family=Nanum+Myeongjo&family=Pacifico&family=Poppins:wght@400;700&family=Recursive:wght@700&family=Roboto+Mono:wght@700&family=Sedgwick+Ave+Display&family=Sriracha&family=Tilt+Prism&display=swap');
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     background-image: url("../images/img1.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+     color: #0c0c0c;
+     font-family: 'Roboto', sans-serif;
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     align-items: center;
+ }
+ 
+h1 {
+     align-items: center;
+     color: #140eb8;
+     text-align: center;
+     background-color: #00ff91bb;
+     margin-top: 40px;
+     border-radius: 10px;
+     font-family: 'Roboto',sans-serif;
+     -webkit-text-stroke: 2px;
+     font-family: 'Roboto', sans-serif;
+}
+.form_label {
+    color: #070a30;
+    -webkit-text-stroke: 1px;
+    width: 100%;
+    font-size: 1rem;
+    padding: .3em .3em;
+    text-align: cent;
+}
+.form_input {
+    background: rgba(249, 249, 429, 0.5);
+    width: 50%;
+    font-size: 1rem;
+    padding: .3em .3em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: none;
+}
+.form_input:hover {
+    background-color: rgba(104, 107, 166, 0.927);
+}
+legend {
+    background-color: rgb(219, 212, 16);
+    border-radius: 5px;
+}
+fieldset {
+    background: rgba(255, 255, 255, 0.2);
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+}
+.act {
+    color: #070a30;
+    -webkit-text-stroke: 1px;
+}
+
+.condition {
+    color: #f8fafa;
+    padding: 5px;
+}
+
+.campo {
+    color: #f8fafa;
+    padding: 5px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: #03e9f4;
+    font-weight: bold;
+    transition: .5s;
+    overflow: hidden;
+    margin: 0 50px;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0  25px #03e9f4,
+                0 0 30px #03e9f4,
+                0 0 200px #03e9f4;
+}

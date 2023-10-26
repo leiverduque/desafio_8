@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Black+Ops+One&family=Bungee&family=Cormorant+Garamond&family=Nanum+Myeongjo&family=Pacifico&family=Poppins:wght@400;700&family=Recursive:wght@700&family=Roboto+Mono:wght@700&family=Sedgwick+Ave+Display&family=Sriracha&family=Tilt+Prism&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(12, 12, 12, 0.959);
+}
+.top {
+    border-top: solid 10px #144635;
+    border-right: solid 10px transparent;
+    border-left: solid 10px transparent;
+    margin-top: 20px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+}
+
+.bottom {
+    border-bottom: solid 10px #144635;
+    border-right: solid 10px transparent;
+    border-left: solid 10px transparent;
+    margin-bottom: 15px;
+}
+
+.Datos {
+    text-align: center;
+}
+.form_label{
+    width: 100%;
+    font-size: 1rem;
+    padding: .3em .3em;
+    text-align: cent;
+}
+
+.form_input{
+    width: 100%;
+    font-size: 1rem;
+    padding: .3em .3em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.form_input:hover {
+    background-color: rgba(69, 167, 129, 0.915);
+}
+
+legend {
+    background-color: #144635;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.904);
+    font-family: 'Poppins',sans-serif;
+}
+
+fieldset {
+    width: 100%;
+    padding: 15px;
+    background-color: #84ac8cfa;
+}
+
+.condition {
+    color: rgba(255, 255, 255, 0.983);
+    padding: 5px;
+ }
+
+.campo {
+    color: rgba(255, 255, 255, 0.992);
+    padding: 5px;
+}
+
+input[type="submit"],
+input[type="reset"]{
+    background-color: #144635;
+    border-radius: 5px;
+    margin: 0 50px;
+    padding: 10px 10px;
+    position: relativ;
+    font-size: 15px;
+    border: none;
+    color: rgb(246, 243, 243);
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #84ac8cfa;
+}
